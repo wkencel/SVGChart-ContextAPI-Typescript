@@ -29,4 +29,4 @@ interface IDataChild {
   color: string;
 }
 
-export type { IData, IDataChild }
+export type { IData, IRange, ITextColor, IDataChild }
