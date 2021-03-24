@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import '../App.css';
-import '../BarChart.css';
+import '../styles/App.css';
+import '../styles/BarChart.css';
 import data from '../dummyData'
 import { IDataChild } from '../interfaces'
 
