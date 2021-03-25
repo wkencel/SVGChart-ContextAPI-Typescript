@@ -1,5 +1,4 @@
-import React, { Component, useContext } from 'react';
-import logo from './logo.svg';
+import React, { useContext } from 'react';
 import '../styles/App.css';
 import '../styles/BarChart.css';
 // import data from '../dummyData'
@@ -25,7 +24,6 @@ function BarChart(){
     const yMid = barHeight * 0.5
     console.log(d)
     const changeColorVal = (d.value < d.avgValue) ? textColor.belowAvg : (d.value === d.avgValue) ? textColor.normal : (d.value > d.avgValue) ? textColor.aboveAvg : undefined
-    const colorStyle = { color: 'red' }
 
     return (
         <g transform={`translate(10, ${i * barHeight})`}>
