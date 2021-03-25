@@ -3,7 +3,7 @@
  * @desc Context container for the data
  */
  import React, { useState, createContext } from 'react'; 
- import { IData, IRange, ITextColor, IDataChild } from '../interfaces';
+ import { IRange, ITextColor, IDataChild } from '../interfaces';
 
  export type GlobalState = {
   title: string,
