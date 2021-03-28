@@ -29,4 +29,9 @@ interface IDataChild {
   color: string;
 }
 
-export type { IData, IRange, ITextColor, IDataChild }
+interface IReactChart {
+  y: number;
+  label: string
+}
+
+export type { IData, IRange, ITextColor, IDataChild, IReactChart }
