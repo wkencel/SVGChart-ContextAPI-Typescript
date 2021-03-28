@@ -1,6 +1,7 @@
 import {useContext } from 'react';
 import './styles/App.css';
 import BarChart from './components/BarChart'
+import  NewBar from './components/NewBar'
 import { globalContext } from './contexts/dataContext';
 import dummyData from './dummyData.tsx'
 
@@ -30,9 +31,10 @@ function App() {
   return (
     <div className="App">
       <p>
-      Chart for Take Home
+      The Data Cartographer
       </p>
       <BarChart />
+      < NewBar />
     </div>
   );
 }
