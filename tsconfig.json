@@ -10,7 +10,7 @@
       "es6"
     ],
     "allowJs": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "sourceMap": true,
     "outDir": "./dist",
     "strict": true,
